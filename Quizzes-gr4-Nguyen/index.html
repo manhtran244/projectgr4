@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e5dd1fe898.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Quizz</title>
+
+</head>
+
+<body>
+    <!-- Login page -->
+    <div id="login" class="container">
+        <div class="login_form">
+            <div class="login_label">
+                <h1>Sign In</h1>
+            </div>
+            <div class="login_form_main">
+                <div class="login_acc login_input">
+                    <input type="text" required>
+                    <div class="placeholder">USERNAME</div>
+                </div>
+                <div class="login_pwd login_input">
+                    <input type="password" required>
+                    <div class="placeholder">PASSWORD</div>
+                </div>
+                <div class="login_save_box">
+                    <input type="checkbox" id="">
+                    <span>Stay signed in</span>
+                </div>
+            </div>
+            <div class="login_button">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="login_forget_pwd">
+                <span>CAN'T SIGN IN</span>
+            </div>
+            <div class="login_sign_up">
+                <span>CREATE ACCOUNT</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gameplay page -->
+    <div id="game">
+        <div id="game_navbar">
+            <div class="game_brand">
+                <span class="game_brand_icon"><i class="fas fa-graduation-cap"></i></span>
+                <span class="game_brand_label">S-Quizz</span>
+            </div>
+            <div class="navbar_search">
+                <input type="search" name="" id="">
+                <button type="submit">Search</button>
+            </div>
+            <div class="navbar_home">
+                <span><i class="fas fa-home"></i></span>
+                <span>HOME</span>
+            </div>
+            <div class="navbar_toggle">
+                <span class="navbar_toggle_btn"><i class="fas fa-sliders-h"></i></span>
+                <div class="navbar_toggle_item">
+                    <div>Sign in</div>
+                    <div>Sign up</div>
+                    <div>Log Out</div>
+                </div>
+            </div>
+        </div>
+        <div id="begin">
+            <div class="quizz_search container">
+                <div class="quizz_search_container container">
+                    <div class="quizz_search_input">
+                        <input type="search" name="" id="">
+                    </div>
+                    <div class="quizz_search_btn">
+                        <button type="submit">Join</button>
+                    </div>
+                    <button type="submit">Quick Join</button>
+                </div>
+                <div id="login_status" class="container">
+                    <span>User status</span>
+                </div>
+            </div>
+            <!-- <div class="quizzes">
+                <div class="mathquizzes">
+                    <div>Math</div>
+                    <div>
+                        <button class="playmath">Play</button>
+                    </div>
+                </div>
+                <div class="englishquizzes">
+                    <div>English</div>
+                    <div>
+                        <button class="playenglish">Play</button>
+                    </div>
+                </div>
+                <div class="physicsquizzes">
+                    <div>Physics</div>
+                    <div>
+                        <button class="playphysics">Play</button>
+                    </div>
+                </div>
+                <div class="computerquizzes">
+                    <div>Computer</div>
+                    <div>
+                        <button class="playcomputer">Play</button>
+                    </div>
+                </div>
+                <div class="allsjquizzes">
+                    <div>All Subjects</div>
+                    <div>
+                        <button class="playallsj">Play</button>
+                    </div>
+                </div>
+            </div> -->
+            <div class="quizz_introdution container">
+                <span class="quizz_introdution_title">
+                    INTRODUCTION
+                </span>
+                <div class="quizz_introdution_txt">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem aperiam repudiandae quas mollitia iure
+                    voluptas ratione fugit vero earum doloribus fuga eaque neque quibusdam ducimus consequatur
+                    perferendis, rerum voluptatum omnis?
+                    /Some guide for use to play easily/
+                </div>
+            </div>
+            <div class="copyright">
+                <div>Develop by JS85</div>
+                <div>Contact us</div>
+            </div>
+        </div>
+        <div id="settings">
+            <!-- Hidden -->
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
